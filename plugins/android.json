@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        }
+    },
+    "dependent_plugins": {
+        "com.ezartech.ezar.flashlight": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "com.ezartech.ezar.snapshot": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "com.ezartech.ezar.videooverlay": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.ddd360287"
+        }
+    }
+}

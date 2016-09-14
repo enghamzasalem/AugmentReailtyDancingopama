@@ -1,0 +1,61 @@
+<h1 id="ezarflashlightcordovaplugin">ezAR Flashlight Cordova Plugin</h1>
+
+<p>Control the on/off state of the light on a mobile device. This plugin works with <br />
+or without the VideoOverlay plugin. </p>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+<li>The plugin must be initialized before setting the light state.</li>
+
+<li>On Android devices, setting the light on will not take effect immediately when <br />
+the VideoOverlay plugin is installed. The light will only turn on when video <br />
+preview is started for the camera on the same side of the device as the light. <br />
+This is due to the tight coupling between camera and light functionality of many <br />
+Android devices. In such cases the light will automatically stop when the camera <br />
+preview is stopped.</li>
+</ul>
+
+<h2 id="supportedplatforms">Supported Platforms</h2>
+
+<ul>
+<li>iOS 7, 8 &amp; 9</li>
+
+<li>Android 4.2 and greater </li>
+</ul>
+
+<h2 id="gettingstarted">Getting Started</h2>
+
+<p>Add the flashlight plugin to your Corodva project the Cordova CLI.</p>
+
+<pre><code>    cordova plugin add pathToEzar/com.ezartech.ezar.flashlight
+</code></pre>
+
+<p>Next initialize the Flashlight plugin and turn the light on.</p>
+
+<pre><code>    ezar.initializeLights(
+        function(deviceLightInfo) {
+            //do something with the info {front: true, back: true}
+            if (ezar.hasLight()) {
+               ezar.setLightOn(successCallback,errorCallback);
+            }
+        },
+        function(err) {
+            alert('Initialization error: ' + err);
+        });
+</code></pre>
+
+<p>When the light is no longer needed turn it off as follows:</p>
+
+<pre><code>    ezar.setCurrentLightOff(successCallback,errorCallback);
+</code></pre>
+
+<h2 id="additionaldocumentation">Additional Documentation</h2>
+
+<p>See <a href="http://ezartech.com">ezartech.com</a> for documentation and support.</p>
+
+<h2 id="license">License</h2>
+
+<p>The ezAR Snapshot is licensed under a <a href="http://www.ezartech.com/ezarstartupkit-license">modified MIT license</a>.</p>
+
+<p>Copyright (c) 2015-2016, ezAR Technologies</p>

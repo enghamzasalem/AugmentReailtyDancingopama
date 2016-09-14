@@ -1,0 +1,41 @@
+<h1 id="ezarsnapshotpluginreleasenotes">ezAR Snapshot Plugin Release Notes</h1>
+
+<h2 id="02220160606">0.2.2 (20160606)</h2>
+
+<p>Changes</p>
+
+<ol>
+<li>Fixed distorted image on first snapshot for iOS devices. You must update the VideoOverlay plugin in your project to 0.2.4 or greater for 
+this fix to take effect.</li>
+
+<li>Added snapshot options 'includeCameraView' from the VideoOverlay plugin and  'includeWebView' to control the layers in the snapshot image.</li>
+
+<li>When 'includeCameraView' is false, the snapshot image background is set to  the videoOverlay background property</li>
+
+<li>A black image the size of the display is returned when both the cameraVieaw 
+and webView are omitted.  </li>
+</ol>
+
+<h2 id="02120160310">0.2.1 (20160310)</h2>
+
+<p>Changes:</p>
+
+<ol>
+<li>Added camera shutter sound for cases when the video overlay is not installed or running on iOS devices.</li>
+
+<li>Fixed iOS camera exception issue.</li>
+</ol>
+
+<h2 id="02020160302">0.2.0 (20160302)</h2>
+
+<p>Initial release of the snapshot functionality. Capture an image of the app user interface</p>
+
+<p>This plugin works with or without the Flashlight and VideoOverlay plugins.</p>
+
+<h3 id="knownissues">Known Issues</h3>
+
+<ol>
+<li>Plugin error reporting needs improvement.</li>
+
+<li>No camera shutter sound when the video overlay is not installed or running on iOS devices.</li>
+</ol>
