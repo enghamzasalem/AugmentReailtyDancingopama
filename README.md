@@ -7,8 +7,7 @@ Simple application to use Augmented reality in ionic1:
 To start the project :
 
 ```
-git clone https://github.com/enghamzasalem/AugmentReailtyDancingopama
-.git
+git clone https://github.com/enghamzasalem/AugmentReailtyDancingopama.git
 cd AugmentReailtyDancingopama
 
 ionic serve
