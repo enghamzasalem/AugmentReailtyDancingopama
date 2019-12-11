@@ -1,4 +1,4 @@
-# simpleDraw
+# Augmented reality in Ionic Framework 1
 
 Simple application to use Augmented reality in ionic1:
 
